@@ -1,0 +1,59 @@
+{% extends 'app/test.html' %}
+
+{% block content %}
+<style type="text/css">
+    .bs-example{
+    	margin: 50px;
+    }
+</style>
+
+<div class="bs-example">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1 class="panel-title">{{ site.site }}</h1>
+        </div>
+        <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Division</th>
+            <th>Street</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{ site.division }}</td>
+            <td>{{ site.street }}</td>
+            <td>{{ site.city }}</td>
+            <td>{{ site.state }}</td>
+            <td>{{ site.zzip }}</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table table-striped">
+<thead>
+<tr>
+    <th>Contact Name</th>
+    <th>Office Number</th>
+    <th>Fax Number</th>
+    <th>Cell Number</th>
+    <th>Email</th>
+</tr>
+</thead>
+<tbody>
+    {% for con in cons %}
+<tr>
+    <td>{{ con.contact }}</td>
+    <td>{{ con.officeNum }}</td>
+    <td>{{ con.faxNum }}</td>
+    <td>{{ con.conCell }}</td>
+    <td>{{ con.email }}</td>
+</tr>
+    {% endfor %}
+</tbody>
+</table>
+</div>
+</div>
+{% endblock %}

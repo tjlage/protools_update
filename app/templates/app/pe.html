@@ -1,0 +1,41 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+<style>
+h2 {text-align:center;}
+</style>
+<h2>PE count</h2>
+</div>
+
+<style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+
+    <table style="width:100%">
+        <tr>
+            <th>Date/Time</th>
+            <th>IP Address</th>
+            <th>Site</th>
+            <th>Tunnel Name</th>
+            <th>Tunnel Type</th>
+            <th>PE Count</th>
+        </tr>
+            {% for pe in pes %}
+        <tr>
+            <td>{{ pe.date }}</td>
+            <td>{{ pe.ip }}</td>
+            <td>{{ pe.site }}</td>
+            <td>{{ pe.tunName }}</td>
+            <td>{{ pe.tunType }}</td>
+            <td>{{ pe.pe}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

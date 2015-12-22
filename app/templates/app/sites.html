@@ -1,0 +1,13 @@
+{% extends 'app/test.html' %}
+
+{% block content %}
+
+        {% for site in sites %}
+    <ul>
+        <li>
+            <a href="{% url 'site_detail' pk=site.pk %}">{{site.site}}</a>
+        </li>
+    </ul>
+        {% endfor %}
+
+{% endblock %}
