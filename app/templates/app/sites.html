@@ -2,12 +2,19 @@
 
 {% block content %}
 
+<style type="text/css">
+    .ul-example{
+    	margin-top: 55px;
+    }
+</style>
+
+<div class="ul-example">
         {% for site in sites %}
-    <ul>
+    <ul >
         <li>
             <a href="{% url 'site_detail' pk=site.pk %}">{{site.site}}</a>
         </li>
     </ul>
         {% endfor %}
-
+</div>
 {% endblock %}
