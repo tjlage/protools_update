@@ -52,8 +52,27 @@
     <td>{{ con.email }}</td>
 </tr>
     {% endfor %}
+</table>
+
+<table class="table table-striped">
+<thead>
+<tr>
+    <th>Tunnel Name</th>
+    <th>System Type</th>
+    <th>Scale Present?</th>
+</tr>
+</thead>
+<tbody>
+    {% for icr in icrs %}
+<tr>
+    <td>{{ icr.tunnel }}</td>
+    <td>{{ icr.sysType }}</td>
+    <td>{{ icr.scale }}</td>
+</tr>
+    {% endfor %}
 </tbody>
 </table>
+
 </div>
 </div>
 {% endblock %}
