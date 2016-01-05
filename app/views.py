@@ -29,4 +29,6 @@ def site_detail(request, pk):
     site = get_object_or_404(Locations, pk=pk)
     cons = Contacts.objects.filter(locations = site)
     icrs = ICR.objects.filter(locations = site)
-    return render(request, 'app/site_detail.html', {'site': site, 'cons': cons, 'icrs': icrs})
+    hubs = Hub.objects.filter(locations = site)
+    udss = UDS.objects.filter(locations = site)
+    return render(request, 'app/site_detail.html', {'site': site, 'cons': cons, 'icrs': icrs, 'hubs':hubs, 'udss' : udss})

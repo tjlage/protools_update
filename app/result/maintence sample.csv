@@ -49,7 +49,7 @@ GROUND,FRES-0937,Michael Chrisco (FMM),559.499.4175,559.268.6158,559.341.6259,31
 GROUND,FTLA-0333,Dwayne Jackson (FMM),954.975.6544,954.975.6546,954.895.7194,2700 NW 25th Street,Pompano Beach ,FL,33069,dwayne.jackson@fedex.com
 GROUND,FTWA-0468,David Woods (FMM),260.749.4305,901.471.5666,260.241.0965,10905 GATEWAY BLVD,New Haven ,IN,46774,davidwoods@fedex.com
 GROUND,FTWO-0760,Frank Vasquez III (FMM),817.561.3002,817.561.3083,817.320.4198,4901 Village Creek Rd,Fort Worth,TX,76119,frank.vasquez.iii@fedex.com
-GROUND,FTWO-0760,Lemmuel Evans (MSVM),817.561.3024,817.561.3083,817.694.8345,4901 Village Creek Rd,Fort Worth,TX,76119,lemmuel.evans@fedex.com 
+GROUND,FTWO-0760,Lemmuel Evans (MSVM),817.561.3024,817.561.3083,817.694.8345,4901 Village Creek Rd,Fort Worth,TX,76119,lemmuel.evans@fedex.com
 GROUND,FTWO-0760,David Shugart (MSVM),817.561.3030,817.561.3083,817.319.6742,4901 Village Creek Rd,Fort Worth,TX,76119,david.shugart@fedex.com
 GROUND,FTWO-0760,Dion Kirfman (FMM),,,,4901 Village Creek Rd,Fort Worth,TX,76119,dion.kirfman@fedex.com
 GROUND,GRNB-0274,Oscar Latham (FMM),336.497.2115,336.497.2116,678.221.7085 ,1502 Old Greensboro Rd,Kernersville,NC,27284,oscar.lathan@fedex.com
@@ -96,7 +96,7 @@ GROUND,NMIL-0530,Mark Weiss (FMM),,,262.402.7961,530 Country Line RD,Menomonee F
 GROUND,NOKY-0406,Sam Napier (FMM),859.384.5721,859.384.5724,859.322.1325,11000 Toebben Drive,Independence,KY,41051,sam.napier@fedex.com
 GROUND,NOKY-0406,Matthew Hammond (MSVM),859.384.5721,859.384.5724,513.889.7846,11000 Toebben Drive,Independence,KY,41051,matthew.hammond@fedex.com
 GROUND,NORC-0301,Ben Coleman (FMM),770.743.3444,770.743.3402,336.407.8093,6265 Atlantic Boulevard,Norcross ,GA,30071,ben.coleman2@fedex.com
-GROUND,OKLA-0731,(Roger) Wayne Clements (FMM),405.415.3740,405 415 3717,405.651.4063,2701 SW 18th St.,Oklahoma City,OK,73108,roger.clements@fedex.com 
+GROUND,OKLA-0731,(Roger) Wayne Clements (FMM),405.415.3740,405 415 3717,405.651.4063,2701 SW 18th St.,Oklahoma City,OK,73108,roger.clements@fedex.com
 GROUND,OLIV-0389,Gaven Brantley (FMM), 662.892.1680 ,662.892.1712,305.608.3761,8505 Nail Road,Olive Branch,MS,38654,gaven.brantley@fedex.com
 GROUND,OLIV-0389,Steve Keelin (MSVM) ,662.892.1685,662.892.1712,662.671.4589,8505 Nail Road,Olive Branch,MS,38654,steven.keelin@fedex.com
 GROUND,OLIV-0389,John Schmitt (SE),662.892.1708,662.892.1712,901.832.9211,8505 Nail Road,Olive Branch,MS,38654,john.schmitt@fedex.com
@@ -122,8 +122,8 @@ GROUND,RLTO-0923,Juan Ramirez (MSVM),909 879.7128,909.879.7155,909.697.5268,330 
 GROUND,RLTO-0923,Francisco Leon (SE),909.879.7159,909.879.7155,909.533.7395,330 Resource Drive,Bloomington,CA,92316,francisco.leon@fedex.com
 GROUND,ROSV-0956,Jose Garcia (FMM),916.787.6709,916.787.6800,916.208.5146,8501 FOOTHILLS BLVD,Roseville ,CA,95747,j_garcia@fedex.com
 GROUND,SACR-0958,Jim Lacy (FMM),916.388.6522,916.381.1263,916.524.6872,8200 Elder Creek Rd,Sacramento,CA,95824,Jim.lacy@fedex.com
-GROUND,SACR-0958,Michael Mulligan (MSVM),916.388.2777,916.381.1263,916.281.5065,8200 Elder Creek Rd,Sacramento,CA,95824,michael.mulligan@fedex.com 
-GROUND,SACR-0958,Ismael Ramirez (MSVM),916.388.2762,916.381.1263,916.384.7753,8200 Elder Creek Rd,Sacramento,CA,95824,ismael.ramirez@fedex.com 
+GROUND,SACR-0958,Michael Mulligan (MSVM),916.388.2777,916.381.1263,916.281.5065,8200 Elder Creek Rd,Sacramento,CA,95824,michael.mulligan@fedex.com
+GROUND,SACR-0958,Ismael Ramirez (MSVM),916.388.2762,916.381.1263,916.384.7753,8200 Elder Creek Rd,Sacramento,CA,95824,ismael.ramirez@fedex.com
 GROUND,SACR-0958,Todd Schuster (SE),916.387.3338,,916.212.0420,8200 Elder Creek Rd,Sacramento,CA,95824,todd.schuster@fedex.com
 GROUND,SALT-0841,Steve Brown (FMM),801.299.6509,801.292.7271,801 597 7606,720 North 400 West,North Salt Lake,UT,84054,stevenbrown@fedex.com
 GROUND,SANA-0782,Steven LaVallay (FMM),,,210.216.5170,9929 Doerr Lane  ,Shertz,TX,78266,steven.lavalley@fedex.com
@@ -153,36 +153,3 @@ GROUND,WOOD-0089,Tony Amato (Tech),,,,6000 Riverside Blvd.,Keasbey,NJ,08832,anth
 GROUND,WOOD-0089,Sanjay Bhagat (SE),732.512.5602,732.512.5584,732.439.6890,6000 Riverside Blvd.,Keasbey,NJ,08832,sanjay.bhagat@fedex.com
 GROUND,WPOR-0961,Andrew Martin (FMM),,,469.203.7636,6447 N. Cutter Circle,Portland,OR,97217,andrew.martin@fedex.com
 GROUND,WRLT-0925,Jaimie Sanchez (FMM),909.873.3365,909.873.3367,323.605.7132,3253 South Catus Ave,Bloomington,CA,92316,jaime.sanchez@fedex.com
-SMARTPOST,ATGA-5303,Joe Pannell (FMM),404.494.2060,404.494.2099,404.354.7531,4644 South Park Blvd,Ellenwood ,GA,30294,joe.pannell@fedex.com
-SMARTPOST,CHNC,Cory Krawiec (FMM),704.789.2707,,,4690 Global Ave. NW,Concord, NC,28027,jkrawiec@fedex.com
-SMARTPOST,DLTX-5751,Brad Howell (FMM),972.656.5222,972.656.5231,469.236.2689,3901 Adler Dr.,Dallas,TX,75211,brad.howell@fedex.com
-SMARTPOST,EDNJ-5087,Patrick Tynion (FMM),732.650.1202,732.650.0919,848 218 2072,200 Nixon Lane,Edison,NJ,08837-3812,patrick.tynion@fedex.com
-SMARTPOST,GCOH-5436,Adam Stiffler (FMM),614 801 2412,614 871 5600,614 325 5638,2969 Lewis Center Way,Grove City ,OH,43123-1782,astiffler@fedex.com
-SMARTPOST,GPOH-5431,Marshall Edens (FMM),614 409 5820,614 409 5836,614 592 7509,6000 Pontius Road ,Groveport ,OH,43125,medens@fedex.com
-SMARTPOST,ININ-5465,Samuel Finney (FMM),317.821.5008,,317.954.7162,8951 Mirabel Rd,Indianapolis,IN,46241,sefinney@fedex.com
-SMARTPOST,KCKS-5648,Matt Young (FMM),913-856-2135,,913-754-6282,21161 W. 167th St.,Olathe,KS,66061,matt.young@fedex.com
-SMARTPOST,MPMN-5552,Dave Pumper (FMM),763.488.4600,,612.849.0018,8450 Revere Lane North ,Maple Grove,MN,55369,dave.pumper@fedex.com
-SMARTPOST,MAWV-5254,Pat Ganje (FMM),304.262.7912,304.262.7906,,553 Caperton Blvd.,Martinsburg ,WV,25401,patrick.ganje@fedex.com
-SMARTPOST,NBWI-5531,Danny Priefer (FMM),262.796.6827,262.796.6883,262.219.3579,16555 W Rogers Dr,New Berlin,WI,53151-2223,daniel.priefer@fedex.com
-SMARTPOST,NBWI-5531,Jeff Carpenter (RMM),262.796.2428,262.796.6824,614.562.8144,16555 W Rogers Dr,New Berlin,WI,53151-2223,jeffrey.carpenter@fedex.com
-SMARTPOST,NBWI-5531,Wes Stiffler (RMM),262.796.7182,262.796.7383,859.743.5602,16555 W Rogers Dr,New Berlin,WI,53151-2223,carl.stiffler@fedex.com
-SMARTPOST,NBWI-5531,Dennis Johnson (SE),262.796.6885,262.796.6879,262.957.4314,16555 W Rogers Dr,New Berlin,WI,53151-2223,dennis.johnson@fedex.com
-SMARTPOST,NOMA-5015,Mike Bosh (FMM),508.393.6599 x133,508.393.6581,774 823 0940,1 Beeman Rd,Northborough ,MA,01532-2049,michael.bosh@fedex.com
-MAD,BIRM,Van Hayes,205-956-1834,,,4901 ALTON COURT,BIRMINGHAM,AL,35210,
-MAD,GRNB,Charles Tate,336-769-9590,,,4040 Business Park Dr.,WINSTON-SALEM,NC,27107,
-MAD,HOUS,Wayne Henry,832-590-4400,,,6410 W. SAM HOUSTON PARKWAY N.,HOUSTON,TX,77041,
-MAD,JAMS,Roy,601-936-4634,,,330 LEGETT DRIVE,RICHLAND,MS,39218,
-MAD,JKSV,Eddy Contreras,904-786-5588,,,2490 NORTH LANE AVENUE,JACKSONVILLE,FL,32254,
-MAD,KALA,Jason Dilk,269-344-3173,,,2612 KERSTEN COURT,KALAMAZOO,MI,49048,
-MAD,KNOX,Debra Redding,865-673-3757,,,3700 MIDDLEBROOK PIKE,KNOXVILLE,TN,37921,
-MAD,LACH,Kim Barrett,,,,6013 HORSEMANS DRIVE,LAKE CHARLES,LA,70615,
-MAD,LOUI,Jim Joseph,812-218-0781,,,5153 MARITIME ROAD,JEFFERSONVILLE,IN,47130,
-MAD,LROK,Myron Allen,501-945-6388,,,801 FIBER OPTIC DRIVE,NORTH LITTLE ROCK,AR,72117,
-MAD,MDSN,James Wambach,608-241-6124,,,3901 HANSON ROAD,MADISON,WI,53704,
-MAD,OKLA,Curtis Wells,405-232-3804,,,1500 WEST RENO AVENUE,OKLAHOMA CITY,OK,73106,
-MAD,OMAH,Gregory Curttright,712-366-2285,,,4406 South 19th Street,COUNCIL BLUFFS,IA,51501,
-MAD,PITT,Bill McDermott,412-778-6000,,,2702 NEVILLE ROAD,PITTSBURGH,PA,15225,
-MAD,RICH,Preston St. John,804-798-9731,,,10105 WHITESEL,AHSLAND,VA,23005,
-MAD,RKIS,Phillip Schaefer,309-799-1050,,,3501 69TH AVENUE,MOLINE,IL,61265,
-MAD,WIFS,Ricky Derzapf,940-766-1204,,,208 RANDY DRIVE,WICHITA FALLS,TX,76306,
-MAD,WSAN,Dwayne Busselman,210-767-4300,,,6808 ASCOT PARK DRIVE,SAN ANTONIO,TX,78238,

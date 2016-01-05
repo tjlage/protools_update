@@ -53,6 +53,32 @@
 </tr>
     {% endfor %}
 </table>
+<table class="table table-striped">
+<thead>
+<tr>
+    <th>HUB</th>
+    <th>IP Address</th>
+    <th>Subnet Mask</th>
+    <th>Gateway</th>
+    <th>DNS Server</th>
+    <th>SNTP Server</th>
+    <th>Software</th>
+
+</tr>
+</thead>
+<tbody>
+    {% for hub in hubs %}
+<tr>
+    <td>{{ site.site }}</td>
+    <td>{{ hub.HUB_ip }}</td>
+    <td>{{ hub.HUB_mask }}</td>
+    <td>{{ hub.HUB_gate }}</td>
+    <td>{{ hub.HUB_dns }}</td>
+    <td>{{ hub.HUB_ntp }}</td>
+    <td>{{ hub.HUB_sw }}</td>
+</tr>
+    {% endfor %}
+</table>
 
 <table class="table table-striped">
 <thead>
@@ -60,6 +86,9 @@
     <th>Tunnel Name</th>
     <th>System Type</th>
     <th>Scale Present?</th>
+    <th>SSPC IP</th>
+    <th>MSC ETH 1 IP</th>
+    <th>MSC ETH 2 IP</th>
 </tr>
 </thead>
 <tbody>
@@ -68,6 +97,19 @@
     <td>{{ icr.tunnel }}</td>
     <td>{{ icr.sysType }}</td>
     <td>{{ icr.scale }}</td>
+    <td>{{ icr.sspc_ip }}</td>
+    <td>{{ icr.msc_ip1 }}</td>
+    <td>{{ icr.msc_ip2 }}</td>
+</tr>
+    {% endfor %}
+    {% for uds in udss %}
+<tr>
+    <td>{{ uds.tunnel }}</td>
+    <td>{{ uds.sysType }}</td>
+    <td> N/A </td>
+    <td>{{ uds.sspc_ip }}</td>
+    <td>{{ uds.msc_ip }}</td>
+    <td>192.168.0.32</td>
 </tr>
     {% endfor %}
 </tbody>
